@@ -649,7 +649,7 @@ export function constructMetadata({
       creator: '@joshtriedcoding',
     },
     icons,
-    metadataBase: new URL('https://digitalhippo.up.railway.app'),
+    metadataBase: new URL('https://marketplace.landryn.dev'),
     ...(noIndex && {
       robots: {
         index: false,

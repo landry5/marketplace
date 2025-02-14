@@ -8,7 +8,7 @@ const nextConfig = {
 			},
 			{
 				protocol: "https",
-				hostname: "marketplace-production-87ee.up.railway.app",
+				hostname: "marketplace.landryn.dev",
 			},
 		],
 	},
