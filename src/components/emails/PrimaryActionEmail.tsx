@@ -42,7 +42,7 @@ export const EmailTemplate = ({
           />
           <Text style={paragraph}>Hi there,</Text>
           <Text style={paragraph}>
-            Welcome to DigitalHippo, the marketplace for
+            Welcome to DigitalKit, the marketplace for
             high quality digital goods. Use the button below
             to {actionLabel}.
           </Text>
@@ -54,7 +54,7 @@ export const EmailTemplate = ({
           <Text style={paragraph}>
             Best,
             <br />
-            The DigitalHippo team
+            The DigitalKit team
           </Text>
           <Hr style={hr} />
           <Text style={footer}>
