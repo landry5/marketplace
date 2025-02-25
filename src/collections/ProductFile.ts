@@ -82,6 +82,7 @@ export const ProductFiles: CollectionConfig = {
     mimeTypes: [
       'image/*',
       'font/*',
+      'application/zip',
       'application/postscript',
     ],
   },
