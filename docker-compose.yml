@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    volumes:
+      - persistent_media:/app/persistent_media
+    environment:
+      - NODE_ENV=production
+
+volumes:
+  persistent_media:
+    driver: local 

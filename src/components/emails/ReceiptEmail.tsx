@@ -106,7 +106,7 @@ export const ReceiptEmail = ({
                   {typeof image !== 'string' &&
                   image.url ? (
                     <Img
-                      src={image.url}
+                      src={`${process.env.NEXT_PUBLIC_SERVER_URL}${image.url}`}
                       width='64'
                       height='64'
                       alt='Product Image'
