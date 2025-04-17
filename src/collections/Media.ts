@@ -1,5 +1,6 @@
 import { User } from '../payload-types'
 import { Access, CollectionConfig } from 'payload/types'
+import path from 'path'
 
 const isAdminOrHasAccessToImages =
   (): Access =>
@@ -43,7 +44,7 @@ export const Media: CollectionConfig = {
   },
   upload: {
     staticURL: '/media',
-    staticDir: 'media',
+    staticDir: path.resolve(process.cwd(), 'persistent_media'),
     imageSizes: [
       {
         name: 'thumbnail',
