@@ -44,7 +44,7 @@ Make sure to set up your .env with Stripe, Resend, MongoDB, and Payload CMS cred
 
 
 ## 🧪 Test Credentials and Card Preview
-**💳 Stripe test credit card**
+### **💳 Stripe test credit card**
 
 Card Number: ```4242 4242 4242 4242```
 
@@ -59,7 +59,8 @@ Billing Address: ```United Kingdom```, ```BN1 3KI```
 ![ChatGPT Image May 17, 2025, 03_07_34 PM](https://github.com/user-attachments/assets/67ccc019-2a50-4fc3-a03a-d5314e7727d2)
 
 This card is a Stripe test card and cannot be used for real transactions. It is safe and intended only for development environments.
-**🔐 Admin Test Credentials**
+### **🔐 Admin Test Credentials**
+
 Use the following credentials to log in as an admin and explore the dashboard:
 
 Email: ```contact@landryn.dev```
