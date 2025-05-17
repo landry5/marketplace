@@ -4,32 +4,6 @@
 
 Built with the Next.js 14 App Router, tRPC, TypeScript, Payload & Tailwind
 
-## Features
-
-- 🔐 Authentication: Sign up, log in, and email verification via Resend
-- 🛒 Secure Checkout: Stripe integration for handling purchases
-- 📦 Seller Dashboard: Upload products, manage listings, preview assets
-- 🧑‍💻 Admin Panel: Product moderation and user management via Payload CMS
-- 🎨 Responsive UI: Built with Tailwind CSS and ShadCN UI
-- ☁️ Self-Hosted: Deployable via Docker, uses Coolify + Hetzner for hosting
-- ✉️ Email Notifications: Order confirmations and email verifications
-- 📁 File Uploads: Persistent storage for digital downloads
-
-## 🛠️ Tech Stack
-**Frontend:** Next.js 14 (App Router), React, Tailwind CSS, ShadCN UI
-
-**Backend:** Payload CMS, tRPC, Node.js (Express)
-
-**Payments:** Stripe
-
-**Emails:** Resend (transactional emails)
-
-**Hosting:** Coolify + Hetzner VPS
-
-**Deployment:** Docker
-
-**Database:** MongoDB
-
 ## 💡 Getting Started
 Clone the repo and follow the setup instructions to run locally:
 ```
@@ -66,4 +40,30 @@ Use the following credentials to log in as an admin and explore the dashboard:
 Email: ```contact@landryn.dev```
 
 Password: ```qwertyuiop```
+
+## Features
+
+- 🔐 Authentication: Sign up, log in, and email verification via Resend
+- 🛒 Secure Checkout: Stripe integration for handling purchases
+- 📦 Seller Dashboard: Upload products, manage listings, preview assets
+- 🧑‍💻 Admin Panel: Product moderation and user management via Payload CMS
+- 🎨 Responsive UI: Built with Tailwind CSS and ShadCN UI
+- ☁️ Self-Hosted: Deployable via Docker, uses Coolify + Hetzner for hosting
+- ✉️ Email Notifications: Order confirmations and email verifications
+- 📁 File Uploads: Persistent storage for digital downloads
+
+## 🛠️ Tech Stack
+**Frontend:** Next.js 14 (App Router), React, Tailwind CSS, ShadCN UI
+
+**Backend:** Payload CMS, tRPC, Node.js (Express)
+
+**Payments:** Stripe
+
+**Emails:** Resend (transactional emails)
+
+**Hosting:** Coolify + Hetzner VPS
+
+**Deployment:** Docker
+
+**Database:** MongoDB
 
